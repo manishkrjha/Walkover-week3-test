@@ -1,5 +1,5 @@
 .parent{
-    padding: 2em;
+    padding: 0.5em;
 }
 
 .box{
@@ -117,7 +117,7 @@ a{
     background-color: green;
     position: fixed;
     bottom: 0;
-    margin-left: 80%;
+    margin-left: 70%;
     margin-right: 5%;
     padding: 0.2em;
 }
@@ -138,6 +138,16 @@ footer{
 @media(min-width: 768px){
     .parent{
         display: flex;
+        padding: 1.5em;
+    }
+
+    .top-scroll{
+        background-color: green;
+        position: fixed;
+        bottom: 0;
+        margin-left: 80%;
+        margin-right: 5%;
+        padding: 0.2em;
     }
 
     .box{
